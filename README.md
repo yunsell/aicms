@@ -1,10 +1,13 @@
 #AICMS TEST
 
+##v0.0.5
+- mariadb 연결
+
+```
 ##v0.0.4
 - gunicorn 설정
 - nginx 설정
 
-```
 ##v0.0.3
 - 페이징 기능
 - 작성일시 표시

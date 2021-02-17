@@ -2,7 +2,7 @@ from flask import Blueprint, url_for
 from werkzeug.utils import redirect
 
 bp = Blueprint('main', __name__, url_prefix='/')
-
+#블루프린트(blueprint)는 ‘ 청사진’을 뜻하는데, 플라스크에서는 URL과 호출되는 함수의 관계를 확인할 수 있는 Blueprint 클래스를 의미한다.
 @bp.route('/hello')
 def hello_pybo():
     return 'Hello, Pybo!'
